@@ -1,0 +1,5 @@
+cd $(cd $(dirname $0); pwd)
+while(true) do
+screen -S J54BOT -X kill
+screen -S J54BOT ./start
+done
